@@ -54,7 +54,7 @@ window.addEventListener('load', function () {
         <div class="description">
           ${place.description}
         </div>
-      </article>;
+      </article>`;
       $('section.places').append(template);
     }
   });
